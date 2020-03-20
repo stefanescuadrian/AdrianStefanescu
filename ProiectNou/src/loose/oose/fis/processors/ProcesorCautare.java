@@ -4,10 +4,10 @@ import loose.oose.fis.documents.Document;
 
 import java.util.ArrayList;
 
-public class ProcesorCautare implements Procesor {
+public class ProcesorCautare implements loose.oose.fis.processors.Procesor {
     private String text;
 
-    public ProcesorCautare(String text) {
+    public ProcesorCautare(String text1) {
         this.text = text;
     }
 
